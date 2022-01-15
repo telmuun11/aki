@@ -1,9 +1,41 @@
 
 
+.sign2{
+    margin-left: 20%;
 
+    margin-top: 15%;
+
+}
+.trans{
+    transition: 200ms;
+    right: +100px;
+}
+.algabol {
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+.rbig{
+    width: 50vw;
+    height: 103vh;   
+}
+.i1{
+    margin-left: 80%;
+}
+.imag{
+    width: 140px;
+    height: 150px;
+}
+.topsign{
+    height: 10%;
+    font-size: 70px;
+    font-family: system-ui;
+    margin-left: -15%;
+    color: cornflowerblue;
+}
 .signindiv{
     margin: 10px;
     width: 50vw;    
+    height: 100vh;
 }
 .textfield1{
     width: 50%; 
@@ -21,4 +53,7 @@
 }
 .flex{
     display: flex;
+}
+.row{
+    flex-direction: row;
 }
