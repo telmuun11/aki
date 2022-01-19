@@ -1,59 +1,77 @@
+.sign2 {
+  margin-left: 20%;
 
-
-.sign2{
-    margin-left: 20%;
-
-    margin-top: 15%;
-
+  margin-top: 15%;
 }
-.trans{
-    transition: 200ms;
-    right: +100px;
+@keyframes zuuntishe {
+  from {
+    left: 50vw;
+  }
+  to {
+    opacity: 0;
+    left: 0px;
+  }
+}
+@keyframes baruuntiishee {
+  from {
+   left: 0;
+  }
+  to {
+    opacity: 0;
+    left: 50vw;
+    display: none;
+  }
+}
+.trans {
+  animation: zuuntiishe 5s linear;
+  position: relative;
 }
 .algabol {
-    opacity: 0;
-    transition: opacity 200ms;
-  }
-.rbig{
-    width: 50vw;
-    height: 103vh;   
+  animation: baruuntiishee 5s linear;
+  // opacity: 0;
+  // transition: opacity 200ms;
+  // display: none;
 }
-.i1{
-    margin-left: 80%;
+.rbig {
+  width: 50vw;
+  height: 103vh;
 }
-.imag{
-    width: 140px;
-    height: 150px;
+.i1 {
+  margin-left: 80%;
 }
-.topsign{
-    height: 10%;
-    font-size: 70px;
-    font-family: system-ui;
-    margin-left: -15%;
-    color: cornflowerblue;
+.imag {
+  width: 140px;
+  height: 150px;
 }
-.signindiv{
-    margin: 10px;
-    width: 50vw;    
-    height: 100vh;
+.topsign {
+  height: 10%;
+  font-size: 70px;
+  font-family: system-ui;
+  margin-left: -15%;
+  color: cornflowerblue;
 }
-.textfield1{
-    width: 50%; 
-    height: 45px;
-    margin-bottom: 100px !important;
+.signindiv {
+  margin: 10px;
+  width: 50vw;
+  height: 100vh;
+}
+.textfield1 {
+  width: 50%;
+  height: 45px;
+  margin-bottom: 100px !important;
 }
 .buttonb {
-    background-color:#03A9F4 !important;
-    color: white !important;
-    border-radius: 50px !important;
-    width: 60% !important;
+  background-color: #03a9f4 !important;
+  color: white !important;
+  border-radius: 50px !important;
+  width: 60% !important;
 }
-.column{
-    flex-direction: column;
+.column {
+  flex-direction: column;
 }
-.flex{
-    display: flex;
+.flex {
+  display: flex;
 }
-.row{
-    flex-direction: row;
+.row {
+  flex-direction: row;
 }
