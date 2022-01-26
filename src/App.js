@@ -2,7 +2,7 @@
 import "./App.css";
 import { Route , Routes  } from "react-router-dom";
 
-import {Home , Sign , Status , Yomenai} from './pages'
+import {Home , Signin , Status , Yomenai} from './pages'
 function App() {
 
   return (
@@ -13,7 +13,7 @@ function App() {
         <Routes>
           
           <Route path="/Sign" element={<Home />} />
-          <Route path="/" element={<Sign />} />
+          <Route path="/" element={<Signin />} />
           <Route path="statuswindow" element={<Status />} />
           <Route path="sekainoichibankimitsugzaarutokoro" element={<Yomenai/>} />
         </Routes>
